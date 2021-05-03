@@ -14,7 +14,7 @@ function preload(){
 }
 function setup() {
   createCanvas(900,400);
-  engine = Engine.create();
+  engine = Engine.Create();
   world = engine.world;
   Engine.run(engine);
   ground = new Ground();
